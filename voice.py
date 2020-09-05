@@ -151,7 +151,7 @@ if __name__ == "__main__":
         elif "How long does the virus survive on surfaces" in query:
             speak("t is not certain how long the virus that causes covid survives on surfaces, but it seems to behave like other corona viruses. Studies suggest that corona viruses (including preliminary information on the covid virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions.")
 
-        elif "Is it safe to receive a package from any area where covid hasbeen reported" in query:
+        elif "Is it safe to receive a package from any area where covid has been reported" in query:
             speak("Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes covid from a package that has been moved, travelled, and exposed to different conditions and temperature is also low")
 
         elif "Is there anything I should not do" in query:
