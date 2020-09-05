@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatsonUnitySDK", "WatsonUnitySDK.csproj", "{8F05BA98-0211-A2F8-494F-0A3F1751E7CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBM.Watson.Tests", "IBM.Watson.Tests.csproj", "{BC98AC06-659C-A91F-9997-9E189E222EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5EF784BC-0F21-493C-E0E0-80A61586FAA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBM.Cloud.SDK", "IBM.Cloud.SDK.csproj", "{8CDF7E5D-D736-85D3-7AD0-77A907A66026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBM.Cloud.SDK.Tests", "IBM.Cloud.SDK.Tests.csproj", "{82A62896-6BF8-7640-3850-633079DBA8A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorMigrationScripts", "EditorMigrationScripts.csproj", "{0A467805-7032-4710-2F6F-DDB538E4A4C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{0301E985-7B4C-85DE-C5A6-AB094DC024DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F05BA98-0211-A2F8-494F-0A3F1751E7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F05BA98-0211-A2F8-494F-0A3F1751E7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F05BA98-0211-A2F8-494F-0A3F1751E7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F05BA98-0211-A2F8-494F-0A3F1751E7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC98AC06-659C-A91F-9997-9E189E222EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC98AC06-659C-A91F-9997-9E189E222EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC98AC06-659C-A91F-9997-9E189E222EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC98AC06-659C-A91F-9997-9E189E222EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF784BC-0F21-493C-E0E0-80A61586FAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF784BC-0F21-493C-E0E0-80A61586FAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF784BC-0F21-493C-E0E0-80A61586FAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF784BC-0F21-493C-E0E0-80A61586FAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CDF7E5D-D736-85D3-7AD0-77A907A66026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDF7E5D-D736-85D3-7AD0-77A907A66026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDF7E5D-D736-85D3-7AD0-77A907A66026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDF7E5D-D736-85D3-7AD0-77A907A66026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A62896-6BF8-7640-3850-633079DBA8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A62896-6BF8-7640-3850-633079DBA8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A62896-6BF8-7640-3850-633079DBA8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A62896-6BF8-7640-3850-633079DBA8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A467805-7032-4710-2F6F-DDB538E4A4C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A467805-7032-4710-2F6F-DDB538E4A4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A467805-7032-4710-2F6F-DDB538E4A4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A467805-7032-4710-2F6F-DDB538E4A4C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0301E985-7B4C-85DE-C5A6-AB094DC024DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0301E985-7B4C-85DE-C5A6-AB094DC024DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0301E985-7B4C-85DE-C5A6-AB094DC024DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0301E985-7B4C-85DE-C5A6-AB094DC024DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/watson/Examples/ExampleStreaming.unity
+  isLoaded: 1
+  isActive: 1
