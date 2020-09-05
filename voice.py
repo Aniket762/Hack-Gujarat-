@@ -5,6 +5,7 @@ import wikipedia  # pip install
 import webbrowser
 import os
 import smtplib
+from random import randint
 
 # if using python>3.8 then pyaudio won't work use this
 # pip install pipwin
@@ -13,6 +14,11 @@ import smtplib
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
+
+data = ["Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water","Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands","Maintain at least 1 metre distance between yourself and others","Avoid going to crowded places","Avoid touching eyes, nose and mouth","Make sure you, and the people around you, follow good respiratory hygiene","Keep up to date on the latest information from trusted sources such as WHO","Keep alcohol-based hand sanitizers out of children’s reach","Avoid touching your eyes, mouth and nose immediately after using an alcohol-based hand sanitizer","Under no circumstance drink or let children swallow an alcohol-based hand sanitizer","Remember that washing your hands with soap and water is also effective against COVID-19"]
+
+
+print(data[randint(0,len(data))]) # to print random tips
 
 
 def speak(audio):
@@ -78,7 +84,7 @@ if __name__ == "__main__":
         elif "Can humans become infected with a novel coronavirus of animal source?" in query:
             speak("Detailed investigations found that SARS-CoV was transmitted from civet cats to humans in China in 2002 and MERS-CoV from dromedary camels to humans in Saudi Arabia in 2012. Several known coronaviruses are circulating in animals that have not yet infected humans. As surveillance improves around the world, more coronaviruses are likely to be identified.")
         
-        elif "What are the symptoms of someone infected with a coronavirus?" in query:
+        elif "What are the symptoms of someone infected with a coronavirus" in query:
             speak("It depends on the virus, but common signs include respiratory symptoms, fever, cough, shortness of breath, and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.")
 
         elif "Can coronaviruses be transmitted from person to person" in query:
@@ -157,7 +163,7 @@ if __name__ == "__main__":
         elif "Is there anything I should not do" in query:
             speak("The following measures ARE NOT effective against COVID-2019 and can be harmful: Smoking  Wearing multiple masks Taking antibiotics")
 
-        elif "What is the process for diagnosing covid" or "What is the process for diagnosing coronavirus" in query
+        elif "What is the process for diagnosing covid" or "What is the process for diagnosing coronavirus" in query:
             speak("covid should be considered a possibility in patients with respiratory tract symptoms and newly onset fever or in patients with severe lower respiratory tract symptoms with no clear cause. Suspicion is increased if such patients have been in an area with community transmission of SARS-CoV-2 or have been in close contact with an individual with confirmed or suspected covid in the preceding 14 days")
         
         elif "How is coronavirus treated" or "How is covid treated" in query:
